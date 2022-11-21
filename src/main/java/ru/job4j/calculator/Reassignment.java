@@ -6,6 +6,5 @@ public class Reassignment {
     size = 100;
     size = size - 5;
     System.out.println(size);
-
   }
 }
