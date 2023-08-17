@@ -8,8 +8,8 @@ public class Fit {
   }
 
   public static double womanWeight(short heightW) {
-    double rsl1 = (heightW - 110) * 1.15;
-    return rsl1;
+    double rsl = (heightW - 110) * 1.15;
+    return rsl;
   }
 
   public static void main(String[] args) {
