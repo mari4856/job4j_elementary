@@ -8,10 +8,12 @@ public class MathCalculator {
     return MathFunction.sum(first, second)
         + MathFunction.multiply(first, second);
   }
+
   public static double differenceAndDivision(double first, double second) {
     return MathFunction.difference(first, second)
         + MathFunction.division(first, second);
   }
+
   public static double total(double first, double second) {
     return MathFunction.difference(first, second)
         + MathFunction.division(first, second) + MathFunction.sum(first, second)
